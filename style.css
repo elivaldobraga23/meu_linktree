@@ -12,12 +12,6 @@ body{
     position: relative;
 }
 
-/* main{
-    width: 600px;
-    margin: 0 auto;
-    box-shadow: 0px 0px 10px 2px #000512;
-} */
-
 img#perfil{
     width: 222px;
     height: 220px;
@@ -93,6 +87,69 @@ a{
 footer{
     background-color: #D9D9D9;
     font-size: 0.9em;
+    height: 55px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+#pfooter{
+    margin-top: 10px;
+}
+
+/* Tela resolução Celular */
+
+@media (max-width: 768px){
+
+}
+
+img#perfil{
+    width: 200px;
+    height: 200px;
+}
+
+h1#principal{
+    font-size: 1.5em;
+}
+
+p#dev{
+    font-size: 20px;
+}
+
+div#imagens{
+    width: 244px;
+    margin-top: 20px;
+}
+
+img.image{
+    width: 25px;
+    height: 25px;
+}
+
+h1#conecte{
+    font-size: 1.5em;
+    margin-top: 15px;
+
+}
+div#link{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+a{ 
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 2px #000512;
+
+}
+
+footer{
+    background-color: #D9D9D9;
+    font-size: 0.7em;
     height: 55px;
     margin-top: 30px;
     text-align: center;
